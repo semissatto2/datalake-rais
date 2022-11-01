@@ -31,9 +31,9 @@ provider "aws" {
 
 # Centraliza o arquivo de controle de estado do Terraform
 terraform {
-  bakcned "s3" {
+  backend "s3" {
     bucket = "terraform-state-guilherme-rais"
-    key = "state/rais/terraform.tfstate"
+    key    = "state/rais/terraform.tfstate"
     region = "us-east-2"
   }
 }
