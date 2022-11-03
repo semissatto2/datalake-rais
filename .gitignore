@@ -1,4 +1,10 @@
 *.csv
 *.7z
+*.hcl
+*.tfstate
+*.backup
+*.terraform
+*.zip
+*.ppk
 /RAIS
 /RAIS_TESTE
