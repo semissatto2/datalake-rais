@@ -10,7 +10,7 @@ resource "aws_lambda_function" "executa_emr" {
 
   runtime = "python3.8"
 
-  tag {
+  tags {
   CURSO = "EDC"
   NOME = "SEMISSATTO"
   }
