@@ -1,5 +1,5 @@
 provider "aws" {
-  region =  "${var.region}""
+  region =  "${var.region}"
 }
 
 # Centraliza o arquivo de controle de estado do Terraform
