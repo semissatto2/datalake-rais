@@ -115,5 +115,5 @@ rais = (
     .write.mode("overwrite")
     .partitionBy("uf")
     .format("parquet")
-    .save("s3://datalake-guilherme-rais/staging/")
+    .save("s3://datalake-guilherme-rais-tf-producao-338766793851/staging/")
 )
