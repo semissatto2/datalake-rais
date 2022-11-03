@@ -45,7 +45,7 @@
             "Resource": [
                 "arn:aws:s3:::aws-glue-*/*",
                 "arn:aws:s3:::*/*aws-glue-*/*",
-                "arn:aws:s3:::igti-ney-*/*"
+                "arn:aws:s3:::datalake-guilherme-rais-tf-producao-338766793851*/*"
             ]
         },
         {
