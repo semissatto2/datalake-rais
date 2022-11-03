@@ -45,6 +45,10 @@ then
 	echo "Compactando arquivo lambda_function_payload.zip"
 	zip -r9 ../lambda_function_payload.zip . #Compacta o pacote para o deploy
 	echo "Arquivo compactado com sucesso!"
+	echo "Diretorio atual"
+	echo pwd
+	cd ..
+	ls
 	echo "============================================="
 fi
 
