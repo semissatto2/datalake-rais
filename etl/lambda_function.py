@@ -33,7 +33,7 @@ def handler(event, context):
                     'Ec2KeyName': 'keypair-semissatto',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
-                    'Ec2SubnetId': 'subnet-1df20360'
+                    'Ec2SubnetId': 'subnet-04fcb485f074215da'
                 },
 
                 Applications=[
